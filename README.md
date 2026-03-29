@@ -10,8 +10,8 @@
 | Link | Description |
 |---|---|
 | **Next.js App** | Run locally — see setup instructions below |
-| **[Demo Video / Streamlit](#)** | _Add your Streamlit or demo link here_ |
-| **[GitHub Repo]()** | https://github.com/Vishwapujara/knowledge-graph?tab=readme-ov-file |
+|**[Live Demo](https://knowledge-graph-vishwapujara.vercel.app)** | Deployed on Vercel |
+| **[GitHub Repo](https://github.com/Vishwapujara/knowledge-graph)** | Full source code |
 
 
 ---

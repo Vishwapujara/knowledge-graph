@@ -165,7 +165,7 @@ export default function KnowledgeGraph() {
                         flex items-center gap-2 bg-white border border-ptp-border
                         rounded-full px-4 py-2 shadow-ptp-card">
           {['all', 'medical', 'financial', 'emotional', 'legal'].map(f => {
-            const cfg = f === 'all' ? null : PROVIDER_TYPE_CONFIG[f as any]
+            const cfg = f === 'all' ? null : PROVIDER_TYPE_CONFIG[f as 'medical' | 'financial' | 'emotional' | 'legal']
             return (
               <button
                 key={f}
@@ -331,7 +331,7 @@ function NodeDetailPanel({ node, journey, profile, onClose }: {
   const isStep = node.type === 'step'
   const isProvider = node.type === 'provider'
   const step = isStep ? journey.steps.find(s => s.id === node.id) : null
-  const cfg = isProvider && node.providerType ? PROVIDER_TYPE_CONFIG[node.providerType as any] : null
+  const cfg = isProvider && node.providerType ? PROVIDER_TYPE_CONFIG[node.providerType as 'medical' | 'financial' | 'emotional' | 'legal'] : null
 
   return (
     <div>

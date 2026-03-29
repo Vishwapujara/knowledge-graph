@@ -176,4 +176,3 @@ src/
 
 ---
 
-*Technical memo and architecture diagram included in submission.*

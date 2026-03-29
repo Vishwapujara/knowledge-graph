@@ -10,7 +10,7 @@
 | Link | Description |
 |---|---|
 | **Next.js App** | Run locally — see setup instructions below |
-|**[Live Demo](https://knowledge-graph-vishwapujara.vercel.app)** | Deployed on Vercel |
+|**[Live Demo](https://knowledge-graph-jet.vercel.app/)** | Deployed on Vercel |
 | **[GitHub Repo](https://github.com/Vishwapujara/knowledge-graph)** | Full source code |
 
 

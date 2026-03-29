@@ -11,9 +11,8 @@
 |---|---|
 | **Next.js App** | Run locally — see setup instructions below |
 | **[Demo Video / Streamlit](#)** | _Add your Streamlit or demo link here_ |
-| **[GitHub Repo](https://github.com/Vishwapujara/knowledge-graph?tab=readme-ov-file)** | _Add your GitHub repo link here_ |
+| **[GitHub Repo]()** | https://github.com/Vishwapujara/knowledge-graph?tab=readme-ov-file |
 
-> Replace the `#` placeholders above with your actual links before submission.
 
 ---
 
